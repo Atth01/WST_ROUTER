@@ -1,0 +1,34 @@
+.navbar {
+    background-color: #333;
+    width: 250px; /* Lebar navbar */
+    height: 100vh; /* Memastikan navbar memanjang dari atas ke bawah */
+    padding-top: 20px;
+    position: absolute; /* Menggunakan posisi fixed agar tetap di tempat saat scroll */
+    top: 43px; /* Menempatkan navbar di bagian atas */
+    left: 0; /* Menempatkan navbar di sisi kiri */
+    z-index: 1000; /* Pastikan navbar berada di atas elemen lain */
+}
+
+.navbar-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: block; /* Membuat menu vertikal */
+}
+
+.navbar-menu li {
+    margin-bottom: 20px; /* Menambahkan jarak antara setiap item */
+}
+
+.navbar-menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    display: block; /* Membuat link menempati seluruh lebar menu */
+    padding: 10px 20px;
+}
+
+.navbar-menu a:hover {
+    background-color: #575757; /* Menambahkan efek hover pada seluruh area item */
+    text-decoration: none; /* Menjaga agar underline tidak muncul */
+}

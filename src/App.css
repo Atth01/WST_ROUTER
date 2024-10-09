@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+.navbar {
+  margin-top: 20px; /* Atur jarak sesuai kebutuhan */
+}
+
+/* Pastikan tidak ada gaya lain yang mengganggu */
+.header {
+  margin-bottom: 20px; /* Tambahkan margin bawah jika perlu */
+}
+
+.main {
+  margin-left: 250px; /* Memberikan ruang untuk navbar di sisi kiri */
+  margin-top: 80px; /* Tambahkan margin atas untuk memberi ruang di bawah header */
+  padding: 20px; /* Tambahkan padding untuk konten utama */
+}

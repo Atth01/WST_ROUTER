@@ -1,0 +1,13 @@
+/* src/Components/Section/Banner.css */
+.banner {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 400px; /* Sesuaikan tinggi sesuai kebutuhan */
+}
+
+.banner-image {
+    width: 100%;
+    height: auto;
+    transition: opacity 1s ease-in-out;
+}
